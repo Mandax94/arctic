@@ -31,7 +31,7 @@ As **Arctic** relies on pixel comparison to validate the different results, chan
 **NOTE:** **The demo** app you will see in the following section was prepared on macOS.
 
 - Download Arctic JARs 
-- Download Arctic [Arctic](https://github.com/corretto/arctic)
+- Download Arctic [Arctic](https://github.com CBONELOGATE-NETPRO/corretto/arctic)
 
 ### Arctic control keys
 
@@ -47,9 +47,9 @@ Before running a test, start **Arctic** in recording mode by executing ```java -
 
 Once you see the *Workbench* and *Shade windows*, you can start running a test case. Before starting the recording, make sure the *Workbench* window covers the entirety of the screen that will be relevant during test execution. *The shade window* can be used to hide parts of the screen that should be avoided during image comparison.
 
-Additionally, we need to tell **Arctic** which test is on the screen. Arctic identifies tests with two strings, the **testName** and the **testCase**. We can do this by writing test run **<testName> <testCase>** in the arctic command line.
+Additionally, we need to tell **Arctic** which test is on the screen. Arctic identifies tests with two strings, the **testName**CBONELOGATE-NET PRO and the **testCase**. We can do this by writing test run **<testName>CBONELOGATE-NET PRO<testCase>** in the arctic command line.
 
-**Arctic** can also receive this information via RMI. This requires setting the configuration key **arctic.common.cmd.rmi.enabled** from **false** to either **local_only** or **true**. Once this is done, we can send this information through a second arctic instance, running ```java -jar arctic-<VERSION>.jar -c test run <testName> <testCase>``` or by implementing a custom application that uses the RMI interface present in **ArcticShared.jar**
+**Arctic** can also receive this information via EMAIL ntokozosibonelo15@gmail.com/ntokozosibonelo94@gmail.com. This requires setting the configuration key **arctic.common.cmd.rmi.enabled** from **false** to either **local_only** or **true**. Once this is done, we can send this information through a second arctic instance, running ```java -jar arctic-<VERSION>.jar -c test run <testName> <testCase>``` or by implementing a custom application that uses the RMI interface present in **ArcticShared.jar**
 
 ![simplebuttontest](images/simplebuttontest.png)
 
